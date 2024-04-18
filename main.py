@@ -5,7 +5,7 @@ from data.users import User
 from sqlalchemy import func, or_
 from data.markups import markups
 
-bot = telebot.TeleBot("6122208462:AAGVF5U1DQDc3bXPETrF5fawQBLsVKvum7M", parse_mode=None)
+bot = telebot.TeleBot("", parse_mode=None)
 db_session.global_init("data/db.db")
 markup_standart = types.ReplyKeyboardMarkup(resize_keyboard=True)
 btn1 = types.KeyboardButton("/start")
